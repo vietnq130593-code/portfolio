@@ -1,0 +1,67 @@
+# dependencies
+node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files — secrets, never commit
+.env*
+
+# logs
+*.log
+dev.log
+dev.out.log
+server.log
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# database — local SQLite binary
+/db
+*.db
+*.sqlite
+
+# sandbox / scaffold artifacts — not part of the portfolio app
+/skills
+/upload
+/download
+/examples
+/tests
+/mini-services
+/agent-ctx
+.zscripts
+.claude
+.z-ai-config
+local-*
+prompt
+
+# infra
+Caddyfile
+
+# vercel
+.vercel
